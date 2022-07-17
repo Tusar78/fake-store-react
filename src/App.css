@@ -7,18 +7,7 @@
 body {
   font-family: Fira Code, monospace;
   font-size: 1rem;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.header,
-.section {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 2rem 0 4rem;
+  color: #0e0f18;
 }
 
 a {
@@ -33,4 +22,19 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header,
+.section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  padding: 2rem 0 4rem;
 }
