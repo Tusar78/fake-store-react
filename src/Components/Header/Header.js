@@ -25,7 +25,7 @@ const Header = ({count}) => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <a href="#cart" className="nav__link">
                 Cart <span className="cart__up">{count}</span>
               </a>
             </li>

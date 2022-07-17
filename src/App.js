@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './Components/Header/Header';
 import Products from './Components/Products/Products';
 import './App.css';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <main className="main">
         <Products increasedCount={increasedCount}></Products>
       </main>
+      <Footer></Footer>
     </>
   );
 }
