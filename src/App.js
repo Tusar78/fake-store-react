@@ -1,10 +1,8 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <h2>Hi</h2>
-    </>
+    <>Hello React!</>
   );
 }
 
