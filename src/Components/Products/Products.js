@@ -5,7 +5,7 @@ import "./Products.css";
 // Fake store api URL
 const BASE_URL = `https://fakestoreapi.com/products`;
 
-const Products = () => {
+const Products = ({increasedCount}) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch(`${BASE_URL}`)
@@ -16,7 +16,7 @@ const Products = () => {
     <section className="section container">
       <div className="product__container">
         {products.map((product) => (
-          <Product key={product.id} product={product}></Product>
+          <Product key={product.id} product={product} increasedCount={increasedCount}></Product>
         ))}
       </div>
     </section>
