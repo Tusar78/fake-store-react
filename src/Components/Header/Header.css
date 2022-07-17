@@ -6,14 +6,16 @@
 .nav {
   height: 4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav__logo {
+  font-weight: 700;
   font-size: 1.5rem;
-  color: #b2ff40;
-  text-shadow: 2px 2px 0px #83d804;
+  color: #5c95d4;
+  text-shadow: 1px 1px 0px #3777c0;
 }
 
 .nav__list {
