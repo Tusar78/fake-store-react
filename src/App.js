@@ -1,22 +1,11 @@
-import { useState } from 'react';
-import Header from './Components/Header/Header';
-import Products from './Components/Products/Products';
-import './App.css';
-import Footer from './Components/Footer/Footer';
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0);
-  const increasedCount = () => setCount(count + 1);
-
+const App = () => {
   return (
-    <>
-      <Header count={count}></Header>
-      <main className="main">
-        <Products increasedCount={increasedCount}></Products>
-      </main>
-      <Footer></Footer>
-    </>
+    <div>
+      
+    </div>
   );
-}
+};
 
 export default App;
